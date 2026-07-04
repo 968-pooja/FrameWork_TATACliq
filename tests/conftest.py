@@ -1,5 +1,6 @@
 from pip._internal.operations.build import wheel_editable
 from selenium import webdriver
+from tim import sleep
 import pytest
 
 @pytest.fixture(autouse=True,scope='session')
